@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 
 function Navbar(){
     return <div>
-                <img src={logo} alt="logotipo" />
+                <img src={logo} className="logotipo" alt="Logotipo" />
            </div>
 }
 
