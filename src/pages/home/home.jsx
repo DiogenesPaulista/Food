@@ -23,3 +23,8 @@ function Home(){
 }
 
 export default Home;
+
+/* 
+    Necessario criação da estrutura do projeto
+    npx create-react-app "nome do projeto"
+*/

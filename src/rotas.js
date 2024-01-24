@@ -14,3 +14,8 @@ function Rotas(){
 }
 
 export default Rotas;
+
+/* 
+    Necessario instalação do pacote 
+    npm install react-router-dom
+*/

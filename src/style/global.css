@@ -38,6 +38,26 @@ a{
     font-size: 1rem;
 }
 
+.btn-checkout{
+    width: 100%;
+    padding: 20px;
+    height: 70px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 0px;
+    background-color: #E84F3D;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+.btn-checkout:hover{
+    background-color: #B63527;
+    
+
+}
+
 .container{
     margin-left: 30px;
     margin-right: 30px;

@@ -11,7 +11,7 @@ function ProdutoVitrine(){
             <p className="prod-vitrine-preco">R$ 18,90</p>
         </div>
         <div>
-            <button className="btn-cart">
+            <button className="btn btn-cart">
                 <img src={bag} className="icon" />
                 Adicionar
             </button>
