@@ -11,13 +11,15 @@ function Home(){
                 <p className="subtitulo">Clique em adicionar para colocar os produtos na sacola de compra. Se preferir, você pode pedir pelo WhatsApp: (11) 94785-2140</p>
             </div>
         </div>
-
+    <div className="text-center">
         <ProdutoVitrine />
         <ProdutoVitrine />
         <ProdutoVitrine />
         <ProdutoVitrine />
+    </div>
 
     </>
+   
 }
 
 export default Home;
