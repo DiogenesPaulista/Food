@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 function Cart(){
 
     const [show, setShow] = useState(false);
-    const navigate = useNavigate;
+    const navigate = useNavigate();
 
     useEffect( function(){
             window.addEventListener('openSidebar', function(){
