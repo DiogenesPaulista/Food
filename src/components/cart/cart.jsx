@@ -1,21 +1,21 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import { Dock } from "react-dock";
-import ProdutoCart from "../produto-cart/produto-cart";
+import ProdutoCart from "../produto-cart/produto-cart.jsx";
 import "./cart.css";
 import { useNavigate } from "react-router-dom";
-import {carrinho} from "../../dados.js";
+import { CartContext } from "../../contexts/cart-context.jsx";
 
 function Cart(){
 
     const [show, setShow] = useState(false);
     const navigate = useNavigate();
-    const [cartItems, setCartItems] = useState([]);
+    const {cartItems} = useContext(CartContext);
 
     useEffect( function(){
             window.addEventListener('openSidebar', function(){
                 setShow(true);
             });
-            setCartItems(carrinho);
+           // setCartItems(carrinho);
     }, []);
     
     function checkout(){
